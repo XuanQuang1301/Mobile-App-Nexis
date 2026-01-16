@@ -12,7 +12,7 @@ Welcome to **Mobile-App-Nexis**! This repository serves as a collection of my mo
 *(Tôi sẽ cập nhật bảng này thường xuyên khi thêm dự án mới)*
 
 ## 🛠 Technology Stack
-* **Language:** Kotlin
+* **Language:** React Native 
 * **IDE:** Android Studio
 * **Build System:** Gradle
 * **Architecture:** MVVM (Learning/Applying)
