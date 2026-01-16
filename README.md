@@ -1,6 +1,6 @@
 # Mobile-App-Nexis 📱
 
-Welcome to **Mobile-App-Nexis**! This repository serves as a collection of my mobile application projects developed using **Kotlin** and **Android Studio**. Here, I document my journey in mastering Android Development.
+Welcome to **Mobile-App-Nexis**! This repository serves as a collection of my mobile application projects developed using **React Native** and **Android Studio**. Here, I document my journey in mastering Android Development.
 
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)
