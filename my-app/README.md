@@ -63,7 +63,8 @@ Dự án này là một ứng dụng di động mô phỏng các tính năng c�
 ✅ Persistence Test: Đảm bảo dữ liệu không bị mất sau khi đóng ứng dụng hoàn toàn và mở lại.
 ✅ Validation Test: Thử nghiệm bỏ trống trường Title để xác nhận hệ thống chặn tạo task lỗi thành công.
 ✅ Navigation Test: Đảm bảo luồng chuyển đổi giữa Home Screen và Add Task Screen mượt mà.
-👤 Author
+
+👤 **Author**
 **Xuan Quang**
 * GitHub: @XuanQuang1301
 * Project: Todo & Habit Tracker App
