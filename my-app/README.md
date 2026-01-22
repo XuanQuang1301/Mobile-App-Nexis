@@ -64,7 +64,9 @@ Dự án này là một ứng dụng di động mô phỏng các tính năng c�
 ✅ Validation Test: Thử nghiệm bỏ trống trường Title để xác nhận hệ thống chặn tạo task lỗi thành công.
 ✅ Navigation Test: Đảm bảo luồng chuyển đổi giữa Home Screen và Add Task Screen mượt mà.
 
-👤 **Author**
+## 👤 Author
 **Xuan Quang**
-* GitHub: @XuanQuang1301
-* Project: Todo & Habit Tracker App
+- GitHub: [@XuanQuang1301](https://github.com/XuanQuang1301)
+
+---
+*⭐️ Star dự án này nếu bạn thấy nó hữu ích!*
