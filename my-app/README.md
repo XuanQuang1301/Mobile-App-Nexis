@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# 📝 Todo & Habit Tracker App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> **Hệ thống quản lý công việc và thói quen cá nhân, tập trung vào tính bền vững của dữ liệu và trải nghiệm người dùng mượt mà trên di động.**
 
-## Get started
+![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-orange?style=for-the-badge)
 
-1. Install dependencies
+---
 
+## 📖 Giới thiệu (Overview)
+
+Dự án này là một ứng dụng di động mô phỏng các tính năng cốt lõi của một hệ thống quản lý tác vụ chuyên nghiệp. Thay vì chỉ là một danh sách tạm thời, ứng dụng tập trung vào việc **Xử lý dữ liệu bền vững (Persistence)** và quy trình **Validation** chặt chẽ để đảm bảo tính toàn vẹn của dữ liệu người dùng.
+
+---
+
+## 🛠 Tech Stack (Công nghệ sử dụng)
+
+| Category | Technology | Description |
+| :--- | :--- | :--- |
+| **Mobile Core** | React Native | Framework xây dựng ứng dụng native đa nền tảng. |
+| **Language** | TypeScript | Đảm bảo kiểu dữ liệu chặt chẽ và giảm thiểu lỗi runtime. |
+| **Navigation** | React Navigation | Xử lý điều hướng đa màn hình (Stack & Tab Navigation). |
+| **State Management**| Zustand | Quản lý trạng thái ứng dụng nhẹ nhàng và hiệu quả. |
+| **Storage** | MMKV / Async Storage | Lưu trữ dữ liệu cục bộ với tốc độ truy xuất cao. |
+| **Form Handling** | React Hook Form | Xử lý nhập liệu và validation chuyên nghiệp. |
+
+---
+
+## ✨ Tính năng nổi bật (Key Features)
+
+### 1. 📋 Quản lý Task Toàn diện
+* **Cấu trúc dữ liệu**: Mỗi đầu việc bao gồm *Title*, *Description* (tùy chọn) và trạng thái *Status* (Done/Not Done).
+* **Hành động nhanh**: Hỗ trợ chuyển đổi trạng thái (Toggle) và xóa task chỉ với một thao tác chạm.
+
+### 2. 🛡 Validation & UX chuyên nghiệp
+* **Input Protection**: Hệ thống chặn việc tạo task trống thông qua logic kiểm tra phía client, đảm bảo không có dữ liệu rác.
+* **Giao diện tối giản**: Tập trung tối đa vào nội dung và sự tiện lợi cho người dùng.
+
+### 3. 💾 Data Persistence (Tính bền vững)
+* **Auto-Save**: Tự động đồng bộ mọi thay đổi xuống bộ nhớ thiết bị ngay lập tức.
+* **Rehydration**: Khi khởi động lại ứng dụng, toàn bộ danh sách công việc được khôi phục chính xác trạng thái trước đó.
+
+---
+
+## 🚀 Hướng dẫn cài đặt (Installation)
+
+### Yêu cầu tiên quyết (Prerequisites)
+* Node.js (v18+)
+* Android Studio (cho máy ảo Android) hoặc Xcode (cho iOS)
+
+### Các bước thực hiện
+1. **Clone dự án**:
    ```bash
+   git clone [https://github.com/XuanQuang1301/Todo-Habit-Tracker.git](https://github.com/XuanQuang1301/Todo-Habit-Tracker.git)
+   cd Todo-Habit-Tracker
+2. **Cài đặt thư viện:**
    npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+3. **Chạy ứng dụng:**
+   npx react-native run-android  # Cho Android
+   npx react-native run-ios      # Cho iOS
+🧪 Kiểm thử & Chất lượng (Quality Control)
+✅ Persistence Test: Đảm bảo dữ liệu không bị mất sau khi đóng ứng dụng hoàn toàn và mở lại.
+✅ Validation Test: Thử nghiệm bỏ trống trường Title để xác nhận hệ thống chặn tạo task lỗi thành công.
+✅ Navigation Test: Đảm bảo luồng chuyển đổi giữa Home Screen và Add Task Screen mượt mà.
+👤 Author
+**Xuan Quang**
+* GitHub: @XuanQuang1301
+* Project: Todo & Habit Tracker App
