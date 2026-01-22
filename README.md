@@ -27,7 +27,7 @@ Welcome to **Mobile-App**! This repository serves as a collection of my mobile a
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/XuanQuang1301/Mobile-App-Nexis.git](https://github.com/XuanQuang1301/Mobile-App-Nexis.git)
+    git clone [https://github.com/XuanQuang1301/Mobile-App-Nexis.git](https://github.com/XuanQuang1301/Mobile-App.git)
     ```
 
 2.  **Navigate to the specific project folder:**
